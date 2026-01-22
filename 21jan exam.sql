@@ -1,6 +1,7 @@
-select department_id, max(avg(salary))
+select department_id, avg(salary)
  from employees
-group by department_id;
+group by department_id
+having max(salary)>12000;
 
  
  
