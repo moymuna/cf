@@ -30,3 +30,4 @@ select hire_date
 from employees
 order by hire_date;
 
+drop table emp1294647;
